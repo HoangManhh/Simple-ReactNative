@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, TextInput, ScrollView, View } from 'react-native';
+import { StyleSheet, Text, TextInput, ScrollView, View, Button } from 'react-native';
 
 export default function App() {
   return (
@@ -14,6 +14,7 @@ export default function App() {
         }}
         defaultValue="Name"
       />
+      <Button title='Submit'/>
       <Text>Type your name </Text>
       <Text>Type your name </Text>
       <Text>Type your name </Text>
